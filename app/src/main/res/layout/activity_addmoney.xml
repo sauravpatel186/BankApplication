@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addmoney"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Bank"
+            android:layout_marginStart="170dp"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:text="Add Money"/>
+    <TextView
+android:id="@+id/abalance"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text=" Balance :"/>
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text=" Amount :"/>
+    <EditText
+        android:id="@+id/anewamount"
+        android:layout_height="40dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/roundedcorner"
+        android:gravity=""
+        android:inputType="number"
+        android:hint="Amount"/>
+    <Button
+
+        android:id="@+id/addbtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:textColor="#ffffff"
+        android:background="#27408b"
+        android:text="Add Money"
+        />
+</LinearLayout>

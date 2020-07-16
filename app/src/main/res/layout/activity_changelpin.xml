@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".changeloginpin">
+    <androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Bank"
+        android:layout_marginStart="170dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+</androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:textColor="#000000"
+        android:text="Change Login Pin"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="Old Pin :"/>
+    <EditText
+        android:inputType="numberPassword"
+        android:id="@+id/edtoldpin"
+        android:layout_height="40dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:hint="Enter Old Pin"
+        android:background="@drawable/roundedcorner"
+
+        />
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="New Pin :"/>
+    <EditText
+        android:id="@+id/edtnewpin"
+        android:hint="Enter New Pin"
+        android:layout_height="40dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:inputType="numberPassword"
+        android:background="@drawable/roundedcorner"
+        />
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="Confirm Pin"/>
+    <EditText
+        android:id="@+id/edtcpin"
+        android:inputType="numberPassword"
+        android:hint="Re-enter New Pin"
+        android:layout_height="40dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/roundedcorner"
+        />
+    <Button
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:text="Change Pin"
+        android:textColor="#ffffff"
+        android:background="#27408b"
+        android:id="@+id/changepinbtn"
+        />
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="OTP"/>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edtotp"
+        android:layout_height="40dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/roundedcorner"
+        />
+    <Button
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:background="#27408b"
+        android:id="@+id/submitbtn"
+        />
+</LinearLayout>
